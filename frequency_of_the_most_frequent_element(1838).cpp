@@ -19,4 +19,7 @@ public:
     }
 };
 
-//while(nums[r]*(r-l+1) <= sum +k) is the condition we need to follow
+//while(nums[r]*(r-l+1) <= sum +k) is the condition we need to expand the window
+//if this is not the case then shrink the window(like we did in the problem)
+// here r-l+1 is the window length 
+
